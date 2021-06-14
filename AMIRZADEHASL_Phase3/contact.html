@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dead Tenant Records: Contact </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="label.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Path of Light Yoga Studio, a peaceful yoga studio that specializes in General Hatha, Vinyasa, and 
+	restorative yoga located in the city of El Dorado.">
+	<script>
+	function validateForm(){
+	if (document.forms[0].myEmail.value == "") {
+		alert("Please enter an email addres.");
+		return false;
+		} // end if
+		return true;
+		} // end function validateForm
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+	<header><h1>Dead Tenant Records</h1></header>
+	<nav>
+		
+		<ul>
+		
+		<li><a href="index.html">Home</a></li>
+		<li><a href="bands.html">Bands</a><li>
+		<li><a href="music.html">Music</a><li>
+		<li><a href="videos.html">Videos</a></li>
+		<li><a href="tour.html">Tour Dates</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		
+		
+		</ul>
+	</nav> 
+	<main>
+	
+	    <img src="images/you.JPG" class="mirror1" alt="Andrew Amirzadeh">
+	
+	<h2>Contact Dead Tenant Records</h2>
+	<h3>For information about booking, licensing or merch please contact us below!</h3>
+	
+<form action="https://webdevbasics.net/scripts/yoga.php" method="post" onsubmit="return validateForm();">
+			<label for="myName"> Name:</label>
+			<input type="text" id="myName" name="myName">
+			
+			<label for="myEmail">E-mail:</label>
+			<input type="email" id="myEmail" name="myEmail">
+
+			<label for="myComments"> Comments:</label>
+			<textarea rows="2" cols="20" id="myComments" name="myComments"></textarea>
+
+			<input type="submit" value="Send Now" id="mysubmit">
+		</form>
+
+	</main>
+		<footer>Check us out on Social Media! <br><a href="www.instagram.com/deadtenantrecords">Instagram</a> 
+	<a href="www.youtube.com/deadtenant">Youtube</a> 
+	<a href="www.soundcloud.com/andrewamirzadeh">Soundcloud</a>
+	<a href="cited.html">Works Cited</a>
+    </footer>
+		</div>
+</body>
+</html>
